@@ -1,0 +1,15 @@
+## WorkoutKitUI
+
+> `/System/Library/PrivateFrameworks/WorkoutKitUI.framework/WorkoutKitUI`
+
+```diff
+
+-2027.0.137.0.0
++2027.0.152.1.1
+   __TEXT.__text: 0x3434
+   __TEXT.__objc_methlist: 0x254
+   __TEXT.__const: 0x200
+Symbols:
++ _$s12WorkoutKitUI0A24RemoteViewServiceAdaptorC07presentdE10Controller2on4with17dismissCompletion10completionySo06UIViewI0C_10Foundation4DataVyycySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5R12_pSgIegyg_TR0T1C0vW0VSo0Y0CSgIeyByy_Tf1nnnEn_n
+- _$s12WorkoutKitUI0A24RemoteViewServiceAdaptorC07presentdE10Controller2on4with17dismissCompletion10completionySo06UIViewI0C_10Foundation4DataVyycySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5R12_pSgIegyg_TR0T1C0vW0VSo0Y0CSgIeyByy_Tf1nnncn_n
+```

@@ -1,0 +1,43 @@
+## iboot_blob34.bin
+
+- `BMSScratchpad: read_bmss_region called with null PMU`
+- `no response available fifo_avail 0x%x, header 0x%x`
+- `CHIP TEMP mDegC: %d`
+- `BMSScratchpad: Unknown key for BMSS write`
+- `rc_irq == RTK_ST_OK`
+- `BMSScratchpad: Old version detected (0x%04x), migrating to 0x%04x`
+- `BMSScratchpad: Performing migration from version 0x%04x to 0x%04x`
+- `BMSScratchpad: Checksum verification failed, zeroing scratchpad`
+- `BMSScratchpad: Failed to read key=%d from legacy region (rc=%d)`
+- `BMSScratchpad: Future version detected (0x%04x > 0x%04x), zeroing`
+- `BMSScratchpad: Failed to write zeroed BMSS region (rc=%d)`
+- `BMSScratchpad: Migration failed, zeroing scratchpad`
+- `smc/bms/v1/battery_low_voltage_residency/battery_low_voltage_residency.cpp`
+- `Unable to get data from AON PTD for pack %d, PTD 0x%08x: rc:%u`
+- `wrong response type:%d, id:0x%x`
+- `%s: %s:%d: %s, Unable to disable interrupt for pack %d, PTD 0x%08x: %d`
+- `s/gapf.cpp`
+- `BMSScratchpad: Uninitialized, initializing with version 0x%04x`
+- `BMSScratchpad: BMSS region not supported, using legacy mode`
+- `BMSScratchpad: Unsupported version 0x%04x`
+- `frc == RTK_ST_OK`
+- `BMSScratchpad:`
+- `BMSScratchpad: read key=%d bat=%u count=%u`
+- `BMSScratchpad: Valid BMSS data found (version=0x%04x)`
+- `BMSScratchpad: key=%d mismatch between BMSS and legacy regions`
+- `Unable to enable interrupt for pack %d, PTD region 0x%08x: rc = %u`
+- `BMSScratchpad: Unknown key for BMSS read`
+- `BMSScratchpad: Failed to mirror key=%d to legacy region (rc=%d)`
+- `BMSScratchpad: write_bmss_region called with null PMU`
+- `Unable to set handler for pack %d, PTD region 0x%08x: rc = %u`
+- `BMSScratchpad: Failed to read BMSS region (rc=%d), zeroing scratchpad`
+- `LVR interrupt for unknown PTD region: 0x%08x`
+- `BMSScratchpad: Write count (%u) exceeds field size (%u), truncating`
+- `BMSScratchpad: Not initialized, call init() first`
+- `BMSScratchpad: Read count (%u) exceeds field size (%u), truncating`
+- `%s: %s:%d: %s, Unable to enable interrupt for pack %d, PTD 0x%08x: %d`
+- `BMSScratchpad: write key=%d bat=%u count=%u`
+- `Failed to initialize LVR for pack %d: rc = %u`
+- `BMSScratchpad: Failed to write migrated data (rc=%d)`
+- `no response available fifo_avail 0x%x ext header 0x%x`
+- `BMSScratchpad: BMSS region supported (size=%u bytes)`

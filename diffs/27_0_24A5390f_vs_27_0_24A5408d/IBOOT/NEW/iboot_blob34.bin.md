@@ -1,0 +1,48 @@
+## iboot_blob34.bin
+
+- `bpic_write: SPMI error: %x`
+- `RECT TEMP mDegC: %d`
+- `Unable to update VLIM voltage threshold:%d`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/utility.cpp`
+- `drivers/devices/awl_bus.cpp`
+- `Wrong offset provided to int signalStore`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalConvert.cpp`
+- `Failed to read dc limiter register, rc:%d`
+- `drivers/devices/aon_ptd.cpp`
+- `smc/bms/v1/battery_low_voltage_residency/battery_low_voltage_residency.`
+- `charger failed to unlock test mode rc:%d OTP:%x HW:%x`
+- `charger failed to enable pll sync rc:%d`
+- `%s: error reading Waikato page, rc:0x%x`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/signalStore.cpp`
+- `charger_drv_set_charger`
+- `drivers/devices/gapf.cpp`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/singlePoleFilter.cpp`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/mux.cpp`
+- `%s: Waikato wrong comm page:%d`
+- `charger failed to read SYSTEM_CONFIG_1 FREQ_DITHER rc:%d`
+- `drivers/charger/v1/waikato/drv_waikato_charger.cpp`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/src/referenceTargetRC.cpp`
+- `vAONPTDTask: woke by unknown semaphore`
+- `wrong response type:%d, id:0x%x (expected:0x%x)`
+- `periodic: set not yet complete rc=%d, will retry next tick`
+- `MVR TEMP mDegC: %d`
+- `no response available fifo_avail 0x%x ext header 0x%x, status 0x%x`
+- `charger failed to disable DCR chopping rc:%d`
+- `%s: error setting Waikato page to 0, rc:0x%x`
+- `Wrong offset provided to float signalStore`
+- `charger_drv_communication_page_check`
+- `%s: TARGET_VALID=%d, rc:0x%x`
+- `ERROR: ibat max is more than 0xFF (%d)`
+- `charger failed to enable improvement to CC-ILIM handoff rc:%d`
+- `AON PTD GAPF start_addr = %llx, size = %llx `
+- `no response available fifo_avail 0x%x, header 0x%x, status 0x%x`
+- `%s: exception, st %d->%d`
+- `charger failed to read WAIKATO_CC_LOOP_CLAMP_CTRL rc:%d`
+- `charger failed to disable SYSTEM_CONFIG_1 FREQ_DITHER`
+- `lc_process_mbox_result_status`
+- `AON PTD Update for Id = %c%c%c%c, msg = 0x%llx, metadata = 0x%llx `
+- `charger failed to disable CC loop active clamp rc:%d`
+- `/src/maxMinRC.cpp`
+- `charger failed to lock test mode rc:%d`
+- `charger failed to write SYSTEM_CONFIG_1 FREQ_DITHER rc:%d`
+- `charger failed to apply VBUS OV mitigation rc:%d`
