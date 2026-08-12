@@ -18,7 +18,7 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diff/catalog/.github/workflows/discover.yml@a0399ba9d7fdc73286e092aacb94562bc8f6cedd
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@05d2db3e4a2e9af1f3f1b8dec58f93cb85bef8c3
     with:
       policy-path: track.json
       manifests-dir: manifests
