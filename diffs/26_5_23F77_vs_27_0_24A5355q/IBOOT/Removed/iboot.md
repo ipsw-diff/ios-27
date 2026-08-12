@@ -1,0 +1,30 @@
+## iboot
+
+- `layout_sptm_objects`
+- `shdata_ro-addr-placeholder`
+- `failed to find the socd config parent node`
+- `aop2-shared-region-base`
+- `failed to get socd push buffer base address`
+- `iBoot Panic: %s: `
+- `arm-io/aop/iop-aop-nub/accel`
+- `usb-no-current`
+- `mapped-here`
+- `shdata_ro-addr`
+- `--> 0x%016lx`
+- `usbcfw_tnt-35.100.3`
+- `failed to init socd kernel push section, result %u`
+- `unreachable condition`
+- `%s:%i 0x%X`
+- `shdata_rw-addr`
+- `%s: handle create failed`
+- `socd push section allocation failed`
+- `Unsupported number of FTAB entries`
+- `shdata_rw-addr-placeholder`
+- `%s: load failed`
+- `failed to query the size of the SOCD region`
+- `socd_push_init`
+- `%s: create failed`
+- `dmem_regioning.c`
+- `failed to initialize socd push buffer`
+- `aop2-shared-region-size`
+- `failed to get socd push buffer size`

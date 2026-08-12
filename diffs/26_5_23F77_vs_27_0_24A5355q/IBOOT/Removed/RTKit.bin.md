@@ -1,0 +1,195 @@
+## RTKit.bin
+
+- `Ensuring that AP is awake`
+- `Battery Discharge`
+- `iBoot: failed to read Fixture Mode GPIO`
+- `power rail fault: Restarting`
+- `smc/thermal/componentController/pmgrInterfaceComponentDriver.cpp`
+- `ui8NfcControllerReady: write: power:%d, scan`
+- `systemctl: reboot (%d)`
+- `nfcEvent_ScanStarted:%d`
+- `Unknown panic trigger interrupt #%u`
+- `SPMI:%d q:%d sts %#X req_done %u`
+- `ui8NfcTagsList called for unrecognized key: 0x%X`
+- `%s: %s:%d: %s, GET_POWER_RAIL_ONOFF_STATUS not supported`
+- `(SOCD) ERROR:Unknown SOCD storage type: %d`
+- `pmu: FW SRAM access not allowed on main pmu`
+- `ui8NfcControllerReady: write`
+- `Adapter Eff Loss`
+- `(SOCD) ERROR:Failed to initialize the SOCD container. Storage index %u, result %d`
+- `smc/systemctl.cpp`
+- `TXDS: deque tx pkt: stream=%d start=%d end=%d bytes=%d`
+- `ui8NfcPowerPause: write`
+- `smc/pmu_monitor.cpp`
+- `%s: %s:%d: %s, error: registry is full`
+- `AP is awake after ~%dms`
+- `(SOCD) ERROR:AP wdt counter is about to overflow`
+- `Invalid display type %d`
+- `%s:%d Bad write offset=0x%X`
+- `ui8NfcControllerReady: write: power:%d`
+- `scan completed outside of power pause`
+- `smc/iphone/pmu_adc_amuxa.cpp`
+- `smc/panic.cpp`
+- `(SOCD) ERROR:Failed to write event counters`
+- `(SOCD) ERROR:failed to fill socd region`
+- `%s:%d Invalid index[%d]`
+- `ui8NfcDisplayState called for unrecognized key: 0x%X`
+- `assert_id = %d`
+- `Waiting %d second(s) for AP to boot up`
+- `pmu: FW SRAM is in use`
+- `fw_ver_string = %s`
+- `%s: scan in power pause`
+- `(SOCD) ERROR:Panic counter is about to overflow`
+- `TXDS: pout_tx_alloc_stream failed with ret=%d`
+- `TXDS: InductiveTxAddToTxStream failed with ret=%d`
+- `TXDS: spmi write to 0x%08X: from entry %d bytes %d`
+- `ui8NfcTagsList: read`
+- `ui8NfcPowerPause called for unrecognized key: 0x%X`
+- `(SOCD) ERROR:Failed to allocate a region instance. Storage index %u`
+- `smc/thermal/componentController/basebandCC.cpp`
+- `AP is already panicking. Nothing to do`
+- `smc/ppm_task.cpp`
+- `smc/spmi.cpp`
+- `smc/sys_task.cpp`
+- `ui8NfcDisplayState: write: state:%d, power:%d`
+- `Disabling AP wakeup assertion`
+- `InductiveTxResetTxStreams`
+- `smc/pmu/pmu_v3.cpp`
+- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld`
+- `spreadsheet ver(*10) %d`
+- `%s:%d Range =%d info not found`
+- `RS: kHostTxChimeDecision: dcsn=%d prm=%d`
+- `pmu: failed SRAM read (ofst=0x%08hX,len=%u)`
+- `(SOCD) ERROR:Failed to initialize socd container, result %d`
+- `smc/stacks.cpp`
+- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
+- `nfcHandleMessage: messageType:%d`
+- `TXDS: %s: [%d %d]`
+- `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
+- `S.sensor array 0 - 8 is %d, %d, %d, %d, %d, %d, %d, %d`
+- `TXDS: st_pout_tx_start_transfer failed with ret=%d`
+- `RS: %s: InductiveTxGetRxSoC: remote_soc change: %d -> %d`
+- `callback && list`
+- `%s: %s:%d: 0x%llx, 0x%llx`
+- `InductiveTxDSEvent`
+- `paniced_pmu_idx = %u, has_fw = %s, error_count = %u, spmi_error_count = %u`
+- `(SOCD) ERROR:Failed to read event counters`
+- `range_param_check`
+- `pmu: sram_addr_lo_reg set error`
+- `<<<PMU monitor crashlog start>>>`
+- `PMU FW info:`
+- `(SOCD) ERROR:Unkown report type %d`
+- `%s: %s:%d: %lld %s %lld`
+- `TXDS: error: InductiveTxGetTxStreamEntry error; ret=%d`
+- `getInitialPoutMax`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
+- `(SOCD) ERROR:failed to write socd region`
+- `rtkptd.cpp`
+- `ui8NfcState: read`
+- `(SOCD) ERROR:failed to read socd region`
+- `System Power In`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpMatrix.h`
+- `smc/utils/accum.cpp`
+- `schedule re-scan for power pause`
+- `RS: kHostTxIdentification; dev_type=0x%x fmly=%d prot=%d qi_ver=0x%x qpp_ver=0x%x`
+- `POP: %s: adP=%d pct=%d initPoutMax=%d`
+- `ui8NfcState: write`
+- `InductiveTxSendData`
+- `ui8NfcDisplayState: write: state:%d`
+- `nfcEvent_NoPowerScanTimer: state:%d`
+- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld, fw_status:0x%llx, assert_id:%d, hw_status:0x%x`
+- `(SOCD) ERROR:failed to read socd region %d`
+- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
+- `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+- `Battery Power`
+- `spmi status (err=0x%08x): id = 0x%02x, read at 0x%04x, len=%lu, retry=%u`
+- `smc/thermal/cltm.cpp`
+- `Invalid baseband type %d`
+- `target/v53/target.cpp`
+- `smc/iphone/nfc.cpp`
+- `(SOCD) ERROR:Failed to create socd handle. Storage index %u, result %d`
+- `smc/inductive/poutPolicy.cpp`
+- `POP: %s: reset not done; lazy reset`
+- `spmi status (err=0x%08x): id = 0x%02x, write at 0x%04x, len=%lu, retry=%u`
+- `systask heartbeat time-out after %lld ms`
+- `ui8NfcTagsList: write: gNfcTagsList.value:0x%x, gLastMessageType:%d`
+- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
+- `smc/key_tree.cpp`
+- `smc/pdCommon.cpp`
+- `pmu: missing SRAM address/base_register/size`
+- `(SOCD) ERROR:failed to fill socd region %d`
+- `ui8NfcControllerReady called for unrecognized key: 0x%X`
+- `%s: scan later`
+- `pmu_feature_flag set to 0x%02x`
+- `idx < list_size`
+- `scanTimeoutHandlerstate:%d`
+- `ui8NfcState called for unrecognized key: 0x%X`
+- `Remotely triggered SMC panic`
+- `pdcom: A%d BCDB Rdy`
+- `pmu: sram_addr_hi_reg set error`
+- `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+- `status = 0x%x`
+- `From non-primary PMU: IRQ %d`
+- `power rail fault: ADC ch %u reading failed`
+- `PMU FW Monitor Parameters:`
+- `smc/thermal/componentController/displayPwrCC.cpp`
+- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
+- `Panic trigger received on interrupt #%u`
+- `pdcom: A%d BCDB !Rdy bat %d Ace %d CapInv %d`
+- `pmu: out of range (ofst=0x%08hX,len=%u)`
+- `smc/smcmain.cpp`
+- `%s: %s:%d: %s, Undefined Thermal pressure input %d`
+- `%s: %s:%d: %s, SMC BSC failure, %c%c%c%c %c%c%c%c`
+- `%s:%d Bad Read offset=0x%X`
+- `ui8NfcDisplayState: read`
+- `power rail fault: *Fault* in ch %u %lld (thre=%lld)`
+- `smc/sys_mgmt.cpp`
+- `%s: gNfcState:%d`
+- `AP failed to wake up after %dms`
+- `nfcEvent_PowerPauseStarted`
+- `Could not complete appending PMU FW information to crashlog because of SPMI err`
+- `target/base/iphone18/pmu_target.cpp`
+- `nfcEvent_PowerPauseSecondScanTimer`
+- `Unknown panic action %u`
+- `Measure invalid: v %d i %d`
+- `power rail fault: all rails disabled`
+- `preventing overflow for %s accumulator, resetting`
+- `(SOCD) ERROR:Failed to allocate a region buffer`
+- `%s: %s:%d: %s, error: callback or list is NULL`
+- `F.sensor array 0 - 1 is %d`
+- `ui8MagnetEvent: write: state:%d`
+- `<<<PMU monitor crashlog end>>>`
+- `s: error: unknown evt = %d`
+- `POP: h:%d chg=%d soc:%d  t:%d  isAL=%d  pMax=%d  pCalc=%lld  thrm=%d%%  pCfg=%lld`
+- `Waiting for AP to wake up`
+- `Sending panic interrupt`
+- `CA notification error %u`
+- `smc/smc_watchdog.cpp`
+- `/SDKROOT/usr/local/standalone/firmware/acsk/V1_0/include/lookUpTable.h`
+- `TXDS: %s: stream %d already in progress; skip`
+- `smc/socd.cpp`
+- `smc/unilog.cpp`
+- `%s: %s:%d: `
+- `smc/smc_init.cpp`
+- `%s:%d Invalid parameter range[%d]`
+- `pmu: failed SRAM write (ofst=0x%08hX,len=%u)`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
+- `nfcHandleMessage: messageType: ironmanMessage_Power: idle later`
+- `spmi status: rd trans=%llu recovered=%u failed=%u, wr trans=%llu recovered=%u failed=%u, last_mbse=%c%c%c%c`
+- `%s: %s:%d: %s, Undefined Thermal Level input %d`
+- `(SOCD) ERROR:Failed to load socd container, result: %d`
+- `assert_params = 0x%x, 0x%x`
+- `ui8MagnetEvent called for unrecognized key: 0x%X`
+- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
+- `smc/miscworkloop.cpp`
+- `pdcom: BattDesignCap !valid %d`
+- `sALD r/w = 0x%02X, val = %d, rc = %d`
+- `power rail fault: flag set`
+- `%s:%d Invalid handle`
+- `%s:%d Invalid parameter range[%d] or data = NULL`
+- `smc/thermal/componentController/thermalPressurePassThruCC.cpp`
+- `smc/thermal/componentController/budgetInterfaceDriver.cpp`
+- `smc/thermal/componentController/cloakingCC.cpp`
+- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
+- `(SOCD) ERROR:failed to write socd region %d`
+- `smc/thermal/acsk/sensorInput.cpp`

@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - .github/workflows/discover.yml
+      - diffs/**
       - manifests/**
       - track.json
   workflow_dispatch:
@@ -18,7 +19,7 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diff/catalog/.github/workflows/discover.yml@12b5e04c9399bd9b244f779e152c89c3aef48d36
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@6a551b4ce81c1eb1b779d9cd005183000c49e6dd
     with:
       policy-path: track.json
       manifests-dir: manifests

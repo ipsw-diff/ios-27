@@ -1,0 +1,220 @@
+## com.apple.driver.usb.cdc.ncm
+
+> `com.apple.driver.usb.cdc.ncm`
+
+```diff
+
+-375.100.5.0.0
+-  __TEXT.__const: 0xb0 sha256:d4b05572c2fcc9a983217401b0ba216b693d367fe86da03d778e3991156f3a3c
+-  __TEXT.__cstring: 0xda4 sha256:d8aca15330caf8bd5e9341c005ff3b54924940852167ea7dfbc6349f82782dfb
+-  __TEXT_EXEC.__text: 0x7fc4 sha256:c0d76d1225394a5c806890569f380258ad91c99c9e269be8943ee51b78b825fb
++391.0.0.0.0
++  __TEXT.__cstring: 0x2331 sha256:f69ea7281d33c2f61f2dad3a37170cc7e683269f07ee69c7ec241f9c49c3ad1e
++  __TEXT.__const: 0xba sha256:acc87f9873e55c1c566c5b78ca1529c2bf2c9a907579ed1202129281f95275f6
++  __TEXT_EXEC.__text: 0xd15c sha256:d5d48b4458475b6162b59abdaa98fcf2965241dfc9a14de787b2580bd929a8a7
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:bb30d81126b4010f5b6125e1b0fffd5f2b7ef3e3642c8fe18e41ed2c2ff58c5f
+-  __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
++  __DATA.__data: 0xc8 sha256:48e03dee39a708d9b288a437d4654306fa639425d5c1a5e3dd511f8da06b514d
++  __DATA.__common: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+   __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+-  __DATA_CONST.__auth_got: 0x2a8 sha256:404ac9f6d33e63c657cd87b48acf730f8ff19fff3685b50e6329c098f1d196d5
+-  __DATA_CONST.__got: 0x78 sha256:d6e17c351eb595a40671ebf04445918e33a804dd63e5bd6bcf0435fa93a58f2c
+-  __DATA_CONST.__mod_init_func: 0x10 sha256:6e9a4e6577aa51584a6b83e42711a4663bb5153eed782199ba8993ea6d010d6d
+-  __DATA_CONST.__mod_term_func: 0x10 sha256:a426063d42edb38669ab132e8ce2eb15b82e754308d30d9deedb783357feaf82
+-  __DATA_CONST.__const: 0xf48 sha256:a458973199598e7cf6f3fff9a954751ca83c4966f75cc7285cef1ff369f74516
+-  __DATA_CONST.__kalloc_type: 0x100 sha256:ffe37a641e5113ffb9d44354ebe9616fc4b830deac13a548ffa58ea950ea7974
+-  UUID: B3532BEF-6360-3F28-AAC9-42B1E20B99A1
+-  Functions: 188
++  __DATA_CONST.__mod_init_func: 0x20 sha256:76fafc9740111c3b859e6d26299e4cb468a5db8e3dad0abee80d9ffd66ba5a31
++  __DATA_CONST.__mod_term_func: 0x20 sha256:2e33a380476ca182f18ef68ed1c03a51ad9e1076f31af569cae0b16f0164181c
++  __DATA_CONST.__const: 0x20d8 sha256:99f240b607f55115dbbacfe763bcd1600ee2d1d3808aa7476ccc9e46861d060d
++  __DATA_CONST.__kalloc_type: 0x140 sha256:02b150b0193a0356d59d21e3784a93185d07246aff332508ab60b798366517b4
++  __DATA_CONST.__auth_got: 0x2b8 sha256:d74318e20977a51f709b6d21dd6ebcc33e1d33d0a4cc4115a03ce5809ac857d6
++  __DATA_CONST.__got: 0x80 sha256:f27b761be3cdce6536a73dbdf4d10f15d0992f55261033b3baa394706bfb001c
++  UUID: 56FF957E-58BD-327D-84AA-EE5BA66573CD
++  Functions: 338
+   Symbols:   0
+-  CStrings:  133
++  CStrings:  234
+ 
+CStrings:
++ "%06lu.%06u [0x%llx] %s::%s: "
++ "%06lu.%06u [0x%llx] %s::%s:       • ARP: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • Checksum: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • Coalescing: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • NS: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • RSS: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • Segmentation (TSO): %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • Store Bad Packets: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • VLAN: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:       • mDNS: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Any Packet: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Feature Flags: 0x%02x\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Magic Packet: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Media Connect: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Media Disconnect: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Medium Type: %s (0x%02x)\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Parameters: 0x%08x\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Pattern Filter: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Presence Offload: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Receive Offload: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Speed: %u\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - TCP/UDP Port: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - Transmit Offload: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:     - mDNS Responder: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:   Medium Handling: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:   Offload Support: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s:   Wake Support: %s\n"
++ "%06lu.%06u [0x%llx] %s::%s: %x \n"
++ "%06lu.%06u [0x%llx] %s::%s: Attempting to fetch extended capabilities\n"
++ "%06lu.%06u [0x%llx] %s::%s: Attempting to switch to NCM 1.1 mode\n"
++ "%06lu.%06u [0x%llx] %s::%s: CRC Mode: %u status: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: Datagram limit: %u status: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device feature summary:\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports ARP presence offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports NS presence offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports RSS receive offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports VLAN receive offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports VLAN transmit offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports checksum receive offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports checksum transmit offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports coalescing receive offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports mDNS presence offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports segmentation transmit offload (TSO)\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports store bad packets receive offload\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports unknown feature selector: 0x%02x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports unknown presence offload type: 0x%02x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports unknown receive offload type: 0x%02x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports unknown transmit offload type: 0x%02x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Device supports unknown wake type: 0x%02x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Extended Capabilities length: %u status: 0x%x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Extended Capability Mode: %u status: 0x%x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Medium Handling descriptor too small (%u bytes)\n"
++ "%06lu.%06u [0x%llx] %s::%s: Medium Type: %u status: 0x%x\n"
++ "%06lu.%06u [0x%llx] %s::%s: NCM 1.0 probe result %p, score %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: NCM 1.1 driver: device supports extended capabilities, probe score increased to %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: NCM 1.1 probe result %p, score %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: NTB Input size: %u status: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: NTB format: %u status: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: Parsing NCM Extended Capabilities (total length: %u)\n"
++ "%06lu.%06u [0x%llx] %s::%s: Presence Offload Type: %u length: %u status: 0x%x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Presence Offload descriptor too small (%u bytes)\n"
++ "%06lu.%06u [0x%llx] %s::%s: Receive Offload Type: %u length: %u status: 0x%x\n"
++ "%06lu.%06u [0x%llx] %s::%s: Receive Offload descriptor too small (%u bytes)\n"
++ "%06lu.%06u [0x%llx] %s::%s: Successfully switched to NCM 1.1 mode\n"
++ "%06lu.%06u [0x%llx] %s::%s: Transmit Offload descriptor too small (%u bytes)\n"
++ "%06lu.%06u [0x%llx] %s::%s: Wake Type: %u length: %u status: 0x%x\n"
++ "%06lu.%06u [0x%llx] %s::%s: [IN] max size: %u divisor: %u payload remainder: %u alignment: %u\n"
++ "%06lu.%06u [0x%llx] %s::%s: [OUT] max size: %u divisor: %u payload remainder: %u alignment: %u max datagrams: %u\n"
++ "%06lu.%06u [0x%llx] %s::%s: _dataInterface %p\n"
++ "%06lu.%06u [0x%llx] %s::%s: fEaddr : %02x:%02x:%02x:%02x:%02x:%02x, stringIndex %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: filter: %u status: %#x\n"
++ "%06lu.%06u [0x%llx] %s::%s: filter: %u status: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: len: %u status: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: length: %u supported formats: %u reserved: %u\n"
++ "%06lu.%06u [0x%llx] %s::%s: result %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: result %d for [0x%llx]\n"
++ "%06lu.%06u [0x%llx] %s::%s: result: %d\n"
++ "%06lu.%06u [0x%llx] %s::%s: returning %p\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: Setting CarPlay properties."
++ "%06lu.%06u [0x%llx][%s] %s::%s: Status: 0x%x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: Unsupported role: %s\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: bNotification 0x%x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: capabilities %#lx\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: error waiting for BSD name %#x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: fNetifEnabled %d, result %#x, bytesTransferred %d\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: failed to clear stall : 0x%x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: linkStatus %d\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: linkStatus %d, fNetifEnabled %d\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: newMedium, bMediumType 0x%x, bmFeatureFlags 0x%x, dwSpeed 0x%x, bmMediumParameters 0x%x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: provider %p\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: provider %p, fControlDriver %p\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: re-enqueue after stall returned 0x%x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: result %#x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: result %d\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: result: %#x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: result: %d\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: result: %d, IN EP 0x%x, OUT EP 0x%x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: start waiting for BSD name\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: status %#x\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: terminating\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: unable to acquire ifnet pointer\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: unable to allocate thread call\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: unhandled notification %d\n"
++ "%06lu.%06u [0x%llx][%s] %s::%s: upSpeed %d, downSpeed %d\n"
++ "121111121222121211111112212111111111211211211122111121111211112111121111211112111121111211112111121111211112111121111211112111121111211111211111211111211111211111211111211111211111211111211111211111211111211111211111211111211222211221111122222222112111211222222222"
++ "12111112122212121111112111211211112222222222222222221"
++ "1211111212221212111111211121121111222222222222222222122222222"
++ "121112111"
++ "AppleUSBNCM11Control"
++ "AppleUSBNCM11Data"
++ "AppleUSBNCMDataPoller"
++ "Ethernet"
++ "NCMOperatingMode"
++ "NO"
++ "Unknown"
++ "Virtual Wire"
++ "YES"
++ "cacheExtendedDescriptors"
++ "copyDataInterface"
++ "getExtendedCapabilities"
++ "getExtendedCapabilityMode"
++ "getExtendedFeatureMediumHandling"
++ "getExtendedFeaturePresenceOffload"
++ "getExtendedFeatureReceiveOffload"
++ "getExtendedFeatureWake"
++ "getMACAddressFromDescriptor"
++ "idProduct"
++ "idVendor"
++ "ncm11-enabled"
++ "parseExtendedCapabilities"
++ "probe"
++ "setExtendedCapabilityMode"
++ "setExtendedFeatureMediumHandling"
++ "setExtendedFeaturePresenceOffload"
++ "setExtendedFeatureReceiveOffload"
++ "setExtendedFeatureWake"
++ "site.AppleUSBNCM11Control"
++ "site.AppleUSBNCM11Data"
++ "site.AppleUSBNCMDataPoller"
+- "%06lu.%06u %s::%s: %x \n"
+- "%06lu.%06u %s::%s: CRC Mode: %u status: %d\n"
+- "%06lu.%06u %s::%s: Datagram limit: %u status: %d\n"
+- "%06lu.%06u %s::%s: NTB Input size: %u status: %d\n"
+- "%06lu.%06u %s::%s: NTB format: %u status: %d\n"
+- "%06lu.%06u %s::%s: Setting CarPlay properties."
+- "%06lu.%06u %s::%s: Status: 0x%x\n"
+- "%06lu.%06u %s::%s: Unsupported role: %s\n"
+- "%06lu.%06u %s::%s: [IN] max size: %u divisor: %u payload remainder: %u alignment: %u\n"
+- "%06lu.%06u %s::%s: [OUT] max size: %u divisor: %u payload remainder: %u alignment: %u max datagrams: %u\n"
+- "%06lu.%06u %s::%s: capabilities %#lx\n"
+- "%06lu.%06u %s::%s: error waiting for BSD name %#x\n"
+- "%06lu.%06u %s::%s: fNetifEnabled %d, result %#x, bytesTransferred %d\n"
+- "%06lu.%06u %s::%s: failed to clear stall : 0x%x\n"
+- "%06lu.%06u %s::%s: filter: %u status: %#x\n"
+- "%06lu.%06u %s::%s: filter: %u status: %d\n"
+- "%06lu.%06u %s::%s: len: %u status: %d\n"
+- "%06lu.%06u %s::%s: length: %u supported formats: %u reserved: %u\n"
+- "%06lu.%06u %s::%s: linkStatus %d\n"
+- "%06lu.%06u %s::%s: linkStatus %d, fNetifEnabled %d\n"
+- "%06lu.%06u %s::%s: provider %p\n"
+- "%06lu.%06u %s::%s: re-enqueue after stall returned 0x%x\n"
+- "%06lu.%06u %s::%s: result %#x\n"
+- "%06lu.%06u %s::%s: result %d\n"
+- "%06lu.%06u %s::%s: result: %#x\n"
+- "%06lu.%06u %s::%s: result: %d\n"
+- "%06lu.%06u %s::%s: result: %d, IN EP 0x%x, OUT EP 0x%x\n"
+- "%06lu.%06u %s::%s: start waiting for BSD name\n"
+- "%06lu.%06u %s::%s: status %#x\n"
+- "%06lu.%06u %s::%s: terminating\n"
+- "%06lu.%06u %s::%s: unable to acquire ifnet pointer\n"
+- "%06lu.%06u %s::%s: unable to allocate thread call\n"
+- "%06lu.%06u %s::%s: unhandled notification %d\n"
+- "%06lu.%06u %s::%s: upSpeed %d, downSpeed %d\n"
+- "11"
+- "12111112122212121111111221211111111111211221121112211112111121111211112111121111211112111121111211112111121111211112111121111211112111121111121111121111121111121111121111121111121111121111121111121111121111121111121111121111121121122111112222222222221121112"
+- "1211111212221212111111211121121111222222222222222222"
+- "site.OutputPipeRecordQueue"
+
+```
