@@ -1,0 +1,24 @@
+name: Discover iOS 27 firmware
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/discover.yml
+      - manifests/**
+      - track.json
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: ios-27-discovery-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    permissions:
+      contents: read
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@2c39764a5220a941da60d6a83e9acf3e991c946e
+    with:
+      policy-path: track.json
+      manifests-dir: manifests
