@@ -1,0 +1,56 @@
+## RTKit.bin
+
+- `Ensuring that AP is awake`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
+- `Unknown panic action %u`
+- `ui8NfcDisplayState: write: state:%d, power:%d`
+- `ui8NfcDisplayState: read`
+- `%s: scan in power pause`
+- `smc/panic.cpp`
+- `ui8NfcState called for unrecognized key: 0x%X`
+- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
+- `ui8NfcControllerReady called for unrecognized key: 0x%X`
+- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
+- `Unknown panic trigger interrupt #%u`
+- `scan completed outside of power pause`
+- `smc/iphone/nfc.cpp`
+- `POP: %s: adP=%d pct=%d initPoutMax=%d`
+- `ui8NfcPowerPause called for unrecognized key: 0x%X`
+- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
+- `nfcEvent_NoPowerScanTimer: state:%d`
+- `ui8NfcControllerReady: write: power:%d`
+- `%s: gNfcState:%d`
+- `smc/iphone/pmu_adc_amuxa.cpp`
+- `nfcEvent_ScanStarted:%d`
+- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
+- `Remotely triggered SMC panic`
+- `ui8MagnetEvent: write: state:%d`
+- `nfcEvent_PowerPauseSecondScanTimer`
+- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
+- `smc/inductive/poutPolicy.cpp`
+- `ui8NfcDisplayState called for unrecognized key: 0x%X`
+- `scanTimeoutHandlerstate:%d`
+- `ui8NfcControllerReady: write`
+- `getInitialPoutMax`
+- `ui8NfcTagsList: write: gNfcTagsList.value:0x%x, gLastMessageType:%d`
+- `ui8NfcTagsList: read`
+- `ui8NfcState: write`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
+- `ui8NfcTagsList called for unrecognized key: 0x%X`
+- `%s: scan later`
+- `smc/key_tree.cpp`
+- `nfcEvent_PowerPauseStarted`
+- `nductiveTxLogFreebuf`
+- `POP: ovr:%lld h:%d chg=%d soc:%d t:%d isAL=%d pMax=%d pCalc=%lld thrm=%d%% pCfg=%lld`
+- `nfcHandleMessage: messageType:%d`
+- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
+- `ui8NfcControllerReady: write: power:%d, scan`
+- `ui8NfcPowerPause: write`
+- `nfcHandleMessage: messageType: ironmanMessage_Power: idle later`
+- `Panic trigger received on interrupt #%u`
+- `schedule re-scan for power pause`
+- `smc/miscworkloop.cpp`
+- `ui8NfcState: read`
+- `POP: %s: reset not done; lazy reset`
+- `ui8MagnetEvent called for unrecognized key: 0x%X`
+- `ui8NfcDisplayState: write: state:%d`
