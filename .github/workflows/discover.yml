@@ -1,6 +1,8 @@
 name: Discover iOS 27 firmware
 
 on:
+  schedule:
+    - cron: "6 1-23/6 * * *"
   pull_request:
     paths:
       - .github/workflows/discover.yml
@@ -19,7 +21,7 @@ jobs:
   discover:
     permissions:
       contents: read
-    uses: ipsw-diff/catalog/.github/workflows/discover.yml@6a551b4ce81c1eb1b779d9cd005183000c49e6dd
+    uses: ipsw-diff/catalog/.github/workflows/discover.yml@19ddd7c2131d6048eee396a41e5dc7fa9acebf2b
     with:
       policy-path: track.json
       manifests-dir: manifests
