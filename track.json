@@ -1,10 +1,11 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "ios-27",
   "platform": "iOS",
+  "appledb_platform": "iOS",
   "device": "iPhone18,1",
   "major_version": 27,
-  "baseline": {
+  "anchor": {
     "version": "27.0 beta 5",
     "build": "24A5408d",
     "released": "2026-08-10T00:00:00Z",
