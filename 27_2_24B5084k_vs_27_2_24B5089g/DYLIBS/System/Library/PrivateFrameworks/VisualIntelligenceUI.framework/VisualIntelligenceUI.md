@@ -1,0 +1,138 @@
+## VisualIntelligenceUI
+
+> `/System/Library/PrivateFrameworks/VisualIntelligenceUI.framework/VisualIntelligenceUI`
+
+```diff
+
+-246.1.17.0.0
+-  __TEXT.__text: 0x3c1508
++246.1.19.0.0
++  __TEXT.__text: 0x3c468c
+   __TEXT.__lazy_helpers: 0x21a4
+   __TEXT.__objc_methlist: 0x11c4
+-  __TEXT.__const: 0x23d14
+-  __TEXT.__cstring: 0x77e8
+-  __TEXT.__swift5_typeref: 0x4a290
+-  __TEXT.__swift5_capture: 0x3d2c
+-  __TEXT.__constg_swiftt: 0x7b40
+-  __TEXT.__swift5_reflstr: 0x82e8
++  __TEXT.__const: 0x23e74
++  __TEXT.__cstring: 0x77f8
++  __TEXT.__swift5_typeref: 0x4a314
++  __TEXT.__swift5_capture: 0x3da0
++  __TEXT.__constg_swiftt: 0x7ba0
++  __TEXT.__swift5_reflstr: 0x8368
+   __TEXT.__swift5_assocty: 0x1e78
+-  __TEXT.__swift5_fieldmd: 0x74f0
++  __TEXT.__swift5_fieldmd: 0x7564
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_proto: 0x9e4
+-  __TEXT.__swift5_types: 0x6a0
+-  __TEXT.__swift_as_entry: 0x2b0
++  __TEXT.__swift5_proto: 0x9ec
++  __TEXT.__swift5_types: 0x6a8
++  __TEXT.__swift_as_entry: 0x2b4
+   __TEXT.__swift_as_ret: 0x270
+-  __TEXT.__swift_as_cont: 0x51c
+-  __TEXT.__oslogstring: 0x5082
++  __TEXT.__swift_as_cont: 0x520
++  __TEXT.__oslogstring: 0x50d2
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x9c48
+-  __TEXT.__eh_frame: 0xb03c
++  __TEXT.__unwind_info: 0x9ce8
++  __TEXT.__eh_frame: 0xb0ec
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa40
+-  __DATA_CONST.__objc_classlist: 0x1f0
++  __DATA_CONST.__const: 0xa58
++  __DATA_CONST.__objc_classlist: 0x1f8
+   __DATA_CONST.__objc_protolist: 0x158
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x15c8
++  __DATA_CONST.__objc_selrefs: 0x15d8
+   __DATA_CONST.__objc_protorefs: 0xb0
+   __DATA_CONST.__vfx_script_tbl: 0x10
+-  __DATA_CONST.__got: 0x2cd8
+-  __AUTH_CONST.__const: 0x10070
+-  __AUTH_CONST.__objc_const: 0x9e80
++  __DATA_CONST.__got: 0x2ce0
++  __AUTH_CONST.__const: 0x10218
++  __AUTH_CONST.__objc_const: 0xa270
+   __AUTH_CONST.__lazy_load_got: 0x2b8
+-  __AUTH_CONST.__auth_got: 0x4d98
+-  __AUTH.__objc_data: 0xf90
+-  __AUTH.__data: 0x3748
+-  __DATA.__data: 0x9898
++  __AUTH_CONST.__auth_got: 0x4de0
++  __AUTH.__objc_data: 0xe78
++  __AUTH.__data: 0x3610
++  __DATA.__data: 0x9718
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0xe6d0
+-  __DATA.__common: 0xd0
+-  __DATA_DIRTY.__objc_data: 0xf68
+-  __DATA_DIRTY.__data: 0x7a38
+-  __DATA_DIRTY.__bss: 0x7830
+-  __DATA_DIRTY.__common: 0x100
++  __DATA.__bss: 0xe3d0
++  __DATA.__common: 0xb8
++  __DATA_DIRTY.__objc_data: 0x1080
++  __DATA_DIRTY.__data: 0x7df8
++  __DATA_DIRTY.__bss: 0x7c30
++  __DATA_DIRTY.__common: 0x118
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 15167
+-  Symbols:   6405
++  Functions: 15219
++  Symbols:   6425
+   CStrings:  1012
+ 
+Symbols:
++ __DATA__TtCC20VisualIntelligenceUI16SessionAnalyticsP33_12C3F8D740EBF1C0723230D1ACDEC36520LifecycleObservation
++ __IVARS__TtCC20VisualIntelligenceUI16SessionAnalyticsP33_12C3F8D740EBF1C0723230D1ACDEC36520LifecycleObservation
++ __METACLASS_DATA__TtCC20VisualIntelligenceUI16SessionAnalyticsP33_12C3F8D740EBF1C0723230D1ACDEC36520LifecycleObservation
++ ___swift_closure_destructor.243Tm
++ ___swift_closure_destructor.95Tm
++ _associated conformance 20VisualIntelligenceUI16SessionAnalyticsC6ArmingOSHAASQ
++ _flat unique So8NSObject_p
++ _get_enum_tag_for_layout_string 10Foundation3URLVIegn_Sg
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVy018VisualIntelligenceB031ShiftingOverlayContainerWrapperVyAaBPAAE20defersSystemGestures2onQrAA4EdgeO3SetV_tFQOyAA08ModifiedE0VyAPyAhAE0O6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAPyAPyAH012_AppIntents_aB0E19appEntityIdentifieryQr0vW00yZ0VSgFQOyAhAE5sheet11isPresented0O7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA6ZStackVyAA05TupleE0VyAPyAhAE17systemColorSchemeQryFQOyAE18ColorSchemeTrackerV_Qo_AA25_PreferenceActionModifierVyAE24ColorSchemePreferenceKeyVGG_AE014FocusSelectionC0VxAE9WayfinderVAA05EmptyC0VQPGSgG_APyAhAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAPyA7_yAE04CardJ0VGAA26_PreferenceWritingModifierVyAA23PreferredColorSchemeKeyVGG_Qo_AA25_AppearanceActionModifierVGQo__Qo_AA30_SafeAreaRegionsIgnoringLayoutVGAA25_AllowsHitTestingModifierVG_AE0iC0V11SizeClasses33_20169C3A692798B789BB261DD5590591LLVyx_GQo__0fG4Core0I11SupportDataVSgQo__AE03NewY5ModelCSgQo_A46_GAA23_GeometryActionModifierVy12CoreGraphics7CGFloatVGG_Qo_GA80_GAaBHPA81_AaBHPyHC_qd__AaBHD2_A80_HOHC
++ _keypath_set.88Tm
++ _objc_msgSend$addObserverForName:object:queue:usingBlock:
++ _objc_msgSend$removeObserver:
++ _symbolic Say______pG So8NSObjectP
++ _symbolic So20NSNotificationCenterC
++ _symbolic _____ 20VisualIntelligenceUI16SessionAnalyticsC20LifecycleObservation33_12C3F8D740EBF1C0723230D1ACDEC365LLC
++ _symbolic _____ 20VisualIntelligenceUI16SessionAnalyticsC6ArmingO
++ _symbolic _____Ieghg_ 20VisualIntelligenceUI16SessionAnalyticsC
++ _symbolic _____Sg 20VisualIntelligenceUI16SessionAnalyticsC20LifecycleObservation33_12C3F8D740EBF1C0723230D1ACDEC365LLC
++ _symbolic _____Sg 22VisualIntelligenceCore12VITimedScopeV
++ _symbolic _____Sg 2os6LoggerV
++ _symbolic _____SgXw 20VisualIntelligenceUI16SessionAnalyticsC
++ _symbolic _____SgXwz_Xx 20VisualIntelligenceUI16SessionAnalyticsC
++ _symbolic _____y_____y_____y_____yACy_____y_____y_____yACyACy_____y_____y_____y_____yACy_____y______Qo______y_____GG______x__________QPGSgG_ACy_____yACyADy_____G_____y_____GG_Qo______GQo__Qo______G_____G______yx_GQo_______SgQo_______SgQo_AYG_____y_____GG_Qo_GA19_G 7SwiftUI19_ConditionalContentV 018VisualIntelligenceB031ShiftingOverlayContainerWrapperV AA4ViewPAAE20defersSystemGestures2onQrAA4EdgeO3SetV_tFQO AA08ModifiedD0V AhAE0O6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQO AhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQO AH012_AppIntents_aB0E19appEntityIdentifieryQr0vW00yZ0VSgFQO AhAE5sheet11isPresented0O7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaGRd__lFQO AA6ZStackV AA05TupleD0V AhAE17systemColorSchemeQryFQO AD18ColorSchemeTrackerV AA25_PreferenceActionModifierV AD24ColorSchemePreferenceKeyV AD014FocusSelectionK0V AD9WayfinderV AA05EmptyK0V AhAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AD04CardI0V AA26_PreferenceWritingModifierV AA23PreferredColorSchemeKeyV AA25_AppearanceActionModifierV AA30_SafeAreaRegionsIgnoringLayoutV AA25_AllowsHitTestingModifierV AD0hK0V11SizeClasses33_20169C3A692798B789BB261DD5590591LLV 0eF4Core0H11SupportDataV AD03NewY5ModelC AA23_GeometryActionModifierV 12CoreGraphics7CGFloatV
++ _symbolic y_____cSg 10Foundation3URLV
+- ___swift_closure_destructor.102Tm
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVy018VisualIntelligenceB031ShiftingOverlayContainerWrapperVyAaBPAAE20defersSystemGestures2onQrAA4EdgeO3SetV_tFQOyAA08ModifiedE0VyAPyAhAE0O6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAPyAPyAPyAH012_AppIntents_aB0E19appEntityIdentifieryQr0vW00yZ0VSgFQOyAhAE5sheet11isPresented0O7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA6ZStackVyAA05TupleE0VyAPyAhAE17systemColorSchemeQryFQOyAE18ColorSchemeTrackerV_Qo_AA25_PreferenceActionModifierVyAE24ColorSchemePreferenceKeyVGG_AE014FocusSelectionC0VxAE9WayfinderVAA05EmptyC0VQPGSgG_APyAhAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAPyA7_yAE04CardJ0VGAA26_PreferenceWritingModifierVyAA23PreferredColorSchemeKeyVGG_Qo_AA25_AppearanceActionModifierVGQo__Qo_AA30_SafeAreaRegionsIgnoringLayoutVGAA25_AllowsHitTestingModifierVGAE26SceneStateObserverModifierVG_AE0iC0V11SizeClasses33_20169C3A692798B789BB261DD5590591LLVyx_GQo__0fG4Core0I11SupportDataVSgQo__AE03NewY5ModelCSgQo_A46_GAA23_GeometryActionModifierVy12CoreGraphics7CGFloatVGG_Qo_GA83_GAaBHPA84_AaBHPyHC_qd__AaBHD2_A83_HOHC
+- _keypath_set.84Tm
+- _symbolic _____y_____y_____y_____yACy_____y_____y_____yACyACyACy_____y_____y_____y_____yACy_____y______Qo______y_____GG______x__________QPGSgG_ACy_____yACyADy_____G_____y_____GG_Qo______GQo__Qo______G_____G_____G______yx_GQo_______SgQo_______SgQo_AYG_____y_____GG_Qo_GA21_G 7SwiftUI19_ConditionalContentV 018VisualIntelligenceB031ShiftingOverlayContainerWrapperV AA4ViewPAAE20defersSystemGestures2onQrAA4EdgeO3SetV_tFQO AA08ModifiedD0V AhAE0O6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQO AhAEAqrS_Qrqd___Sbyqd___qd__tctSQRd__lFQO AH012_AppIntents_aB0E19appEntityIdentifieryQr0vW00yZ0VSgFQO AhAE5sheet11isPresented0O7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaGRd__lFQO AA6ZStackV AA05TupleD0V AhAE17systemColorSchemeQryFQO AD18ColorSchemeTrackerV AA25_PreferenceActionModifierV AD24ColorSchemePreferenceKeyV AD014FocusSelectionK0V AD9WayfinderV AA05EmptyK0V AhAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AD04CardI0V AA26_PreferenceWritingModifierV AA23PreferredColorSchemeKeyV AA25_AppearanceActionModifierV AA30_SafeAreaRegionsIgnoringLayoutV AA25_AllowsHitTestingModifierV AD26SceneStateObserverModifierV AD0hK0V11SizeClasses33_20169C3A692798B789BB261DD5590591LLV 0eF4Core0H11SupportDataV AD03NewY5ModelC AA23_GeometryActionModifierV 12CoreGraphics7CGFloatV
+CStrings:
++ "SessionAnalytics.publishAndReset: SKIPPED — session never presented (nothing observable: no funnel event, pill, frame, action or error). session=%{public}s entryPoint=%{public}s"
++ "SessionAnalytics.retire: session retired %{public}s"
++ "SessionAnalytics: %{public}s session"
+- "OverlayView.onSceneStateChange: %{public}s entryPoint=%{public}s"
+- "OverlayView: didEnterBackground — flushing analytics session"
+- "OverlayView: willEnterForeground — re-arming analytics session"
+```

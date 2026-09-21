@@ -1,0 +1,204 @@
+## MusicEngagementExtension
+
+> `/System/Library/ExtensionKit/Extensions/MusicEngagementExtension.appex/MusicEngagementExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_reflstr`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-4026.210.13.1.0
+-  __TEXT.__text: 0x4defb8
++4026.200.16.0.0
++  __TEXT.__text: 0x4e0884
+   __TEXT.__auth_stubs: 0x9ab0
+   __TEXT.__objc_stubs: 0xcd80
+   __TEXT.__objc_methlist: 0x3d34
+   __TEXT.__swift5_typeref: 0x1b112
+-  __TEXT.__const: 0x2a850
+-  __TEXT.__cstring: 0xbf34
+-  __TEXT.__constg_swiftt: 0x10e64
++  __TEXT.__const: 0x2a898
++  __TEXT.__cstring: 0xbf44
++  __TEXT.__constg_swiftt: 0x10e6c
+   __TEXT.__swift5_reflstr: 0xc5f2
+-  __TEXT.__swift5_fieldmd: 0xdd60
++  __TEXT.__swift5_fieldmd: 0xdd6c
+   __TEXT.__swift5_proto: 0x1954
+   __TEXT.__swift5_types: 0xfd4
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__objc_classname: 0x2b1f
+-  __TEXT.__objc_methname: 0x10e65
++  __TEXT.__objc_methname: 0x10e85
+   __TEXT.__objc_methtype: 0x2d68
+-  __TEXT.__swift5_capture: 0x9244
++  __TEXT.__swift5_capture: 0x9284
+   __TEXT.__oslogstring: 0x8f58
+   __TEXT.__swift_as_entry: 0x878
+   __TEXT.__swift_as_ret: 0x7b0
+
+   __TEXT.__swift5_protos: 0x128
+   __TEXT.__swift5_mpenum: 0x1b8
+   __TEXT.__ustring: 0xec
+-  __TEXT.__unwind_info: 0x107a8
+-  __TEXT.__eh_frame: 0x15ec4
+-  __DATA_CONST.__const: 0x32198
++  __TEXT.__unwind_info: 0x107e0
++  __TEXT.__eh_frame: 0x15eb4
++  __DATA_CONST.__const: 0x32268
+   __DATA_CONST.__cfstring: 0x120
+   __DATA_CONST.__objc_classlist: 0x500
+   __DATA_CONST.__objc_catlist: 0xd0
+
+   __DATA_CONST.__auth_got: 0x4d60
+   __DATA_CONST.__got: 0x36e0
+   __DATA_CONST.__auth_ptr: 0x40f0
+-  __DATA.__objc_const: 0x15e10
++  __DATA.__objc_const: 0x15a98
+   __DATA.__objc_selrefs: 0x3f68
+   __DATA.__objc_ivar: 0x5c
+-  __DATA.__objc_data: 0x8128
++  __DATA.__objc_data: 0x8130
+   __DATA.__data: 0x174f8
+   __DATA.__objc_stublist: 0x18
+   __DATA.__bss: 0x2a7f0
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 23849
+-  Symbols:   60954
+-  CStrings:  5227
++  Functions: 23889
++  Symbols:   61014
++  CStrings:  5228
+ 
+Symbols:
++ $s7LyricsX21LayerPropertyAnimatorC5delaySdvM.resume
++ $s7LyricsX25SpringAnimationParametersV8duration12CoreGraphics7CGFloatVSgvM.resume
++ _$s21MusicSwiftCollections10OrderedSetV6append10contentsOfyqd___t7ElementQyd__RszSTRd__lF7LyricsX06SyncedJ9LineLayerC0L0C_s10ArraySliceVyALGTg5
++ _$s21MusicSwiftCollections10OrderedSetV6append10contentsOfyqd___t7ElementQyd__RszSTRd__lF7LyricsX06SyncedJ9LineLayerC4WordC_s10ArraySliceVyALGTg5
++ _$s21MusicSwiftCollections10OrderedSetV6append10contentsOfyqd___t7ElementQyd__RszSTRd__lFSo7CALayerC_SayAIGTg5
++ _$s7LyricsX06SyncedA14ViewControllerC11currentLineAA0aF0_pSgvg
++ _$s7LyricsX06SyncedA14ViewControllerC11currentLineAA0aF0_pSgvgTq
++ _$s7LyricsX06SyncedA14ViewControllerC11currentLineAA0aF0_pSgvpMV
++ _$s7LyricsX06SyncedA14ViewControllerC19scrollToCurrentLine13resetProgressySb_tF
++ _$s7LyricsX06SyncedA14ViewControllerC19scrollToCurrentLine13resetProgressySb_tFTq
++ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11setProgress_8animated11forceUpdateySd_S2btFTq
++ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C11setProgress_8animated11forceUpdateySd_S2btF
++ _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C11setProgress_8animated11forceUpdateySd_S2btFTq
++ _$s7LyricsX0A0C11TranslationVWObTm
++ _$s7LyricsX21LayerPropertyAnimatorC04isIncD5BlockSbvau
++ _$s7LyricsX21LayerPropertyAnimatorC04isIncD5BlockSbvgZ
++ _$s7LyricsX21LayerPropertyAnimatorC04isIncD5BlockSbvpZMV
++ _$s7LyricsX21LayerPropertyAnimatorC10animations33_20AD01227B75A58BD1FE7EB101CDE589LLSayyycGvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC13addAnimations10animationsyyyc_tF
++ _$s7LyricsX21LayerPropertyAnimatorC13addAnimations3for10animationsySayAA0bcdB8Provider_pG_yyctF
++ _$s7LyricsX21LayerPropertyAnimatorC13addCompletionyyyycF
++ _$s7LyricsX21LayerPropertyAnimatorC13extraKeyPaths33_20AD01227B75A58BD1FE7EB101CDE589LLShySSGvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC14animationCurveAC09AnimationF0Ovg
++ _$s7LyricsX21LayerPropertyAnimatorC14animationCurveAC09AnimationF0OvpACTK
++ _$s7LyricsX21LayerPropertyAnimatorC14animationCurveAC09AnimationF0OvpACTk
++ _$s7LyricsX21LayerPropertyAnimatorC14animationCurveAC09AnimationF0OvpMV
++ _$s7LyricsX21LayerPropertyAnimatorC15completionCount33_20AD01227B75A58BD1FE7EB101CDE589LLSivpfi
++ _$s7LyricsX21LayerPropertyAnimatorC15totalAnimations33_20AD01227B75A58BD1FE7EB101CDE589LLSivpfi
++ _$s7LyricsX21LayerPropertyAnimatorC17layerAnimationMap33_20AD01227B75A58BD1FE7EB101CDE589LLSDySo7CALayerCSaySSGGvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC18completionHandlers33_20AD01227B75A58BD1FE7EB101CDE589LLSayyycGvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC2eeoiySbAC_ACtFZ
++ _$s7LyricsX21LayerPropertyAnimatorC4hash4intoys6HasherVz_tF
++ _$s7LyricsX21LayerPropertyAnimatorC5StateO21__derived_enum_equalsySbAE_AEtFZ
++ _$s7LyricsX21LayerPropertyAnimatorC5StateO4hash4intoys6HasherVz_tF
++ _$s7LyricsX21LayerPropertyAnimatorC5StateO9hashValueSivg
++ _$s7LyricsX21LayerPropertyAnimatorC5StateO9hashValueSivpMV
++ _$s7LyricsX21LayerPropertyAnimatorC5delaySdvM
++ _$s7LyricsX21LayerPropertyAnimatorC5delaySdvg
++ _$s7LyricsX21LayerPropertyAnimatorC5delaySdvpMV
++ _$s7LyricsX21LayerPropertyAnimatorC5delaySdvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC5delaySdvs
++ _$s7LyricsX21LayerPropertyAnimatorC5stateAC5StateOvg
++ _$s7LyricsX21LayerPropertyAnimatorC5stateAC5StateOvpMV
++ _$s7LyricsX21LayerPropertyAnimatorC5stateAC5StateOvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC6layers10parametersACSaySo7CALayerCG_AA25SpringAnimationParametersVtcfC
++ _$s7LyricsX21LayerPropertyAnimatorC6layers33_20AD01227B75A58BD1FE7EB101CDE589LL21MusicSwiftCollections10OrderedSetVySo7CALayerCGvpfi
++ _$s7LyricsX21LayerPropertyAnimatorC6layers33_20AD01227B75A58BD1FE7EB101CDE589LL21MusicSwiftCollections10OrderedSetVySo7CALayerCGvpfiTm
++ _$s7LyricsX21LayerPropertyAnimatorC6layers5curve5delayACSaySo7CALayerCG_AC14AnimationCurveOSdtcfC
++ _$s7LyricsX21LayerPropertyAnimatorC7animate6layers5curve5delay10animationsySaySo7CALayerCG_AC14AnimationCurveOSdyyctFZ
++ _$s7LyricsX21LayerPropertyAnimatorC9hashValueSivg
++ _$s7LyricsX21LayerPropertyAnimatorC9hashValueSivpMV
++ _$s7LyricsX21LayerPropertyAnimatorCfd
++ _$s7LyricsX25LineProgressGradientLayerC15layersToAnimateSaySo7CALayerCGvpMV
++ _$s7LyricsX25SpringAnimationParametersV12dampingRatio8responseAC12CoreGraphics7CGFloatV_AHtcfC
++ _$s7LyricsX25SpringAnimationParametersV16settlingDuration12CoreGraphics7CGFloatVvg
++ _$s7LyricsX25SpringAnimationParametersV16settlingDuration12CoreGraphics7CGFloatVvpMV
++ _$s7LyricsX25SpringAnimationParametersV23__derived_struct_equalsySbAC_ACtFZ
++ _$s7LyricsX25SpringAnimationParametersV4mass12CoreGraphics7CGFloatVvg
++ _$s7LyricsX25SpringAnimationParametersV4mass12CoreGraphics7CGFloatVvpMV
++ _$s7LyricsX25SpringAnimationParametersV4mass9stiffness7dampingAC12CoreGraphics7CGFloatV_A2ItcfC
++ _$s7LyricsX25SpringAnimationParametersV7damping12CoreGraphics7CGFloatVvg
++ _$s7LyricsX25SpringAnimationParametersV7damping12CoreGraphics7CGFloatVvpMV
++ _$s7LyricsX25SpringAnimationParametersV8duration12CoreGraphics7CGFloatVSgvM
++ _$s7LyricsX25SpringAnimationParametersV8duration12CoreGraphics7CGFloatVSgvg
++ _$s7LyricsX25SpringAnimationParametersV8duration12CoreGraphics7CGFloatVSgvpMV
++ _$s7LyricsX25SpringAnimationParametersV8duration12CoreGraphics7CGFloatVSgvpfi
++ _$s7LyricsX25SpringAnimationParametersV8duration12CoreGraphics7CGFloatVSgvs
++ _$s7LyricsX25SpringAnimationParametersV9stiffness12CoreGraphics7CGFloatVvg
++ _$s7LyricsX25SpringAnimationParametersV9stiffness12CoreGraphics7CGFloatVvpMV
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtFSo7CALayerC_Tg5
++ _$sSay7LyricsX06SyncedA9LineLayerC4WordCGSayxGSlsWlTm
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF7LyricsX06SyncedG9LineLayerC4WordC_Tg5
++ _$ss10_NativeSetV4copyyyF7LyricsX06SyncedD8LineViewC_Tg5
++ _$ss10_NativeSetV4copyyyF7LyricsX06SyncedD9LineLayerC4WordC_Tg5
++ _$ss10_NativeSetV4copyyyF7LyricsX21LayerPropertyAnimatorC_Tg5
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC7LyricsX21LayerPropertyAnimatorC_Tt1g5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_7LyricsX0K0C11TranslationVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_7LyricsX0K0C15TransliterationVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_7LyricsX0D0C11TranslationVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_7LyricsX0D0C15TransliterationVTg5
+- _$s21MusicSwiftCollections10OrderedSetV10_appendNew_2inyx_AA10_HashTableV6BucketVtFSo22UIViewPropertyAnimatorC_Tg5
+- _$s21MusicSwiftCollections10OrderedSetV20_regenerateHashTableyyF7LyricsX06SyncedI9LineLayerC4WordC_Tg5
+- _$s21MusicSwiftCollections10OrderedSetV20_regenerateHashTableyyFSo22UIViewPropertyAnimatorC_Tg5
+- _$s21MusicSwiftCollections10_HashTableV12UnsafeHandleV5_find_2inSiSg5index_AC6BucketV6buckettx_SRyxGtSHRzlFSo22UIViewPropertyAnimatorC_Tg5
+- _$s7LyricsX06SyncedA14ViewControllerC19scrollToCurrentLineyyF
+- _$s7LyricsX06SyncedA14ViewControllerC19scrollToCurrentLineyyFTq
+- _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C0fD0C11setProgress_8animatedySd_SbtFTq
+- _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C11setProgress_8animatedySd_SbtF
+- _$s7LyricsX06SyncedA9LineLayerC015SBS_TextContentD0C11setProgress_8animatedySd_SbtFTq
+- _$s7LyricsX21LayerPropertyAnimatorC5stateAC5StateOvMTq
+- _$s7LyricsX21LayerPropertyAnimatorC5stateAC5StateOvsTq
+- _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF7LyricsX06SyncedH8LineViewC_Tg5
+- _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF7LyricsX21LayerPropertyAnimatorC_Tg5
+- _$sSay7LyricsX0A0C8SyllableVGWOc
+- _$sSaySo7CALayerCGSayxGSlsWlTm
+- _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF7LyricsX21LayerPropertyAnimatorC_Tg5Tm
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo7CALayerC_SDySSSo17CAAnimatableValue_pGTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo7CALayerC_SaySSGTg5
+- _$ss17_NativeDictionaryV4copyyyFSo7CALayerC_SDySSSo17CAAnimatableValue_pGTg5
+- _$ss17_NativeDictionaryV4copyyyFSo7CALayerC_SaySSGTg5
+CStrings:
++ "phoenix"
+```

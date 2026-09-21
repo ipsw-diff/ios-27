@@ -1,0 +1,17 @@
+## AppleKeyStore
+
+> `/System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore`
+
+```diff
+
+-2383.40.14.0.0
+-  __TEXT.__text: 0x62abc
++2383.40.15.0.0
++  __TEXT.__text: 0x62acc
+   __TEXT.__const: 0x157d3
+   __TEXT.__cstring: 0x34ef
+   __TEXT.__oslogstring: 0x1744
+Functions:
+~ _X509ExtensionParseBasicConstraints : 208 -> 212
+~ _X509ChainBuildPathPartial : 488 -> 500
+```

@@ -1,0 +1,25 @@
+## RTKit.bin
+
+- `TXDS: %s: stream_id=%d out of range`
+- `TXDS: %s: terminated transactions due to disconnect`
+- `%s:%d fail reply q: %x %x %x %x`
+- `%s: 0x%x -> 0x%x`
+- `%s:%d sema but no work %x`
+- `InductiveTxUpdate`
+- `TXDS: notify AP: comms paused`
+- `smc/inductive/inductive_tx.cpp`
+- `vInductiveProcessWork`
+- `%s:tx:haltReason %d -> %d`
+- `RXIC Woke Up`
+- `InductiveTxStreamControlRxInd`
+- `RS: TX FW state moved to Idle`
+- `TXDS: notify AP: comms enabled`
+- `InductiveTxApplyBootFlagsFromFW`
+- `TXDS: notify AP: comms resumed`
+- `tx assert triggered!`
+- `InductiveEnablePeriodicTimer`
+- `%s:%d:tx:read_status failed; reset inductive ic`
+- `TXDS: notify AP: comms disabled; comms paused`
+- `TXDS: %s: unexpected data stream size`
+- `InductiveTxProcessRxInd`
+- `vInductiveTaskStop fail`
