@@ -1,0 +1,177 @@
+## ACIEXKitComponent
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/ACIEXKitComponent.framework/ACIEXKitComponent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__data`
+
+```diff
+
+ 1.29.0.0.0
+-  __TEXT.__text: 0x22bd8
++  __TEXT.__text: 0x2439c
+   __TEXT.__auth_stubs: 0x640
+-  __TEXT.__const: 0x1ce8
++  __TEXT.__const: 0x1f40
+   __TEXT.__cstring: 0x664
+   __TEXT.__objc_classname: 0xc7
+   __TEXT.__objc_methname: 0x23
+   __TEXT.__objc_methtype: 0x1
+-  __TEXT.__constg_swiftt: 0x8e4
+-  __TEXT.__swift5_typeref: 0x423
+-  __TEXT.__swift5_reflstr: 0x21e5
+-  __TEXT.__swift5_fieldmd: 0x1510
++  __TEXT.__constg_swiftt: 0x970
++  __TEXT.__swift5_typeref: 0x441
++  __TEXT.__swift5_reflstr: 0x22f5
++  __TEXT.__swift5_fieldmd: 0x162c
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_assocty: 0x138
+-  __TEXT.__swift5_proto: 0x1c0
+-  __TEXT.__swift5_types: 0xd8
++  __TEXT.__swift5_proto: 0x1e8
++  __TEXT.__swift5_types: 0xec
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__unwind_info: 0x7e8
+-  __TEXT.__eh_frame: 0x23f0
+-  __DATA_CONST.__const: 0x1f40
++  __TEXT.__unwind_info: 0x870
++  __TEXT.__eh_frame: 0x26e8
++  __DATA_CONST.__const: 0x2268
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__auth_got: 0x320
+
+   __DATA.__objc_const: 0x2b8
+   __DATA.__data: 0x810
+   __DATA.__TIGHTBEAM: 0x10
+-  __DATA.__bss: 0x2680
++  __DATA.__bss: 0x2980
+   - /System/ExclaveKit/System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/ExclaveKit/System/Library/Frameworks/SharedMemory.framework/SharedMemory
+   - /System/ExclaveKit/System/Library/PrivateFrameworks/ANEExclaveServices.framework/ANEExclaveServices
+
+   - /System/ExclaveKit/usr/lib/swift/libswiftObjectiveC.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswift_Builtin_float.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswiftos.dylib
+-  Functions: 606
+-  Symbols:   1634
++  Functions: 642
++  Symbols:   1741
+   CStrings:  36
+ 
+Symbols:
++ _$s17ACIEXKitComponent15_ANESessionInfoV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0K7MessageVnAJYKXEfU_
++ _$s17ACIEXKitComponent15_ANESessionInfoV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0K7MessageVnAJYKXEfU_TA
++ _$s17ACIEXKitComponent15_ANESessionInfoV15unsafeUnmarshal4fromACSrys5UInt8VG_tSo10tb_error_taYKFZAC9Tightbeam0K7MessageVnAJYKXEfU_
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E11MarshalableAAMc
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E11MarshalableAAMcMK
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E11MarshalableAadEP13marshaledSize2ofSix_tFZTW
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E11MarshalableAadEP13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFTW
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E13UnmarshalableAAMc
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E13UnmarshalableAAMcMK
++ _$s17ACIEXKitComponent15_ANESessionInfoV9Tightbeam0E13UnmarshalableAadEP15unsafeUnmarshal4fromxSrys5UInt8VG_tSo10tb_error_taYKFZTW
++ _$s17ACIEXKitComponent15_ANESessionInfoVMF
++ _$s17ACIEXKitComponent15_ANESessionInfoVMa
++ _$s17ACIEXKitComponent15_ANESessionInfoVMf
++ _$s17ACIEXKitComponent15_ANESessionInfoVMn
++ _$s17ACIEXKitComponent15_ANESessionInfoVN
++ _$s17ACIEXKitComponent15_ANESessionInfoVWV
++ _$s17ACIEXKitComponent15_ANESessionInfoVwet
++ _$s17ACIEXKitComponent15_ANESessionInfoVwst
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_TA
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV15unsafeUnmarshal4fromACSrys5UInt8VG_tSo10tb_error_taYKFZAC9Tightbeam0L7MessageVnAJYKXEfU_
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F11MarshalableAAMc
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F11MarshalableAAMcMK
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F11MarshalableAadEP13marshaledSize2ofSix_tFZTW
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F11MarshalableAadEP13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFTW
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F13UnmarshalableAAMc
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F13UnmarshalableAAMcMK
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsV9Tightbeam0F13UnmarshalableAadEP15unsafeUnmarshal4fromxSrys5UInt8VG_tSo10tb_error_taYKFZTW
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVMF
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVMa
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVMf
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVMn
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVN
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVWV
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVwet
++ _$s17ACIEXKitComponent17_ANEPowerHintArgsVwst
++ _$s17ACIEXKitComponent17_ANESessionStatusOMF
++ _$s17ACIEXKitComponent17_ANESessionStatusOMa
++ _$s17ACIEXKitComponent17_ANESessionStatusOMf
++ _$s17ACIEXKitComponent17_ANESessionStatusOMn
++ _$s17ACIEXKitComponent17_ANESessionStatusON
++ _$s17ACIEXKitComponent17_ANESessionStatusOSHAAMc
++ _$s17ACIEXKitComponent17_ANESessionStatusOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17ACIEXKitComponent17_ANESessionStatusOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17ACIEXKitComponent17_ANESessionStatusOSHAASH9hashValueSivgTW
++ _$s17ACIEXKitComponent17_ANESessionStatusOSHAAWP
++ _$s17ACIEXKitComponent17_ANESessionStatusOSQAAMc
++ _$s17ACIEXKitComponent17_ANESessionStatusOSQAASQ2eeoiySbx_xtFZTW
++ _$s17ACIEXKitComponent17_ANESessionStatusOSQAAWP
++ _$s17ACIEXKitComponent17_ANESessionStatusOWV
++ _$s17ACIEXKitComponent17_ANESessionStatusOwet
++ _$s17ACIEXKitComponent17_ANESessionStatusOwst
++ _$s17ACIEXKitComponent17_ANESessionStatusOwug
++ _$s17ACIEXKitComponent17_ANESessionStatusOwui
++ _$s17ACIEXKitComponent17_ANESessionStatusOwup
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV13marshaledSize2ofSiAC_tFZTf4nd_nTf4x_n
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFy9Tightbeam0L7MessageVnAJYKXEfU_TA
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV15unsafeUnmarshal4fromACSrys5UInt8VG_tSo10tb_error_taYKFZAC9Tightbeam0L7MessageVnAJYKXEfU_
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F11MarshalableAAMc
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F11MarshalableAAMcMK
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F11MarshalableAadEP13marshaledSize2ofSix_tFZTW
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F11MarshalableAadEP13unsafeMarshal4intoySrys5UInt8VG_tSo10tb_error_taYKFTW
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F13UnmarshalableAAMc
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F13UnmarshalableAAMcMK
++ _$s17ACIEXKitComponent19_ANESessionHintArgsV9Tightbeam0F13UnmarshalableAadEP15unsafeUnmarshal4fromxSrys5UInt8VG_tSo10tb_error_taYKFZTW
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVMF
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVMa
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVMf
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVMn
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVN
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVWV
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVwet
++ _$s17ACIEXKitComponent19_ANESessionHintArgsVwst
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOMF
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOMa
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOMf
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOMn
++ _$s17ACIEXKitComponent19_ANESessionHintTypeON
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSHAAMc
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSHAASH9hashValueSivgTW
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSHAAWP
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSQAAMc
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSQAASQ2eeoiySbx_xtFZTW
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOSQAAWP
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOWV
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOwet
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOwst
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOwug
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOwui
++ _$s17ACIEXKitComponent19_ANESessionHintTypeOwup
++ _$s9Tightbeam0A15DecoderProtocolP17ACIEXKitComponentRi_zrlE6decode33_376465043A5BFE8D837D3EF8E91BF464LL2asAD17_ANESessionStatusOAIm_tSo10tb_error_taYKFAA0aB0V_Ttg5
++ _$s9Tightbeam0A15DecoderProtocolP17ACIEXKitComponentRi_zrlE6decode33_376465043A5BFE8D837D3EF8E91BF464LL2asAD19_ANESessionHintArgsVAIm_tSo10tb_error_taYKFAA0aB0V_Ttg5
++ _$s9Tightbeam0A15DecoderProtocolP17ACIEXKitComponentRi_zrlE6decode33_376465043A5BFE8D837D3EF8E91BF464LL2asAD19_ANESessionHintTypeOAIm_tSo10tb_error_taYKFAA0aB0V_Ttg5
++ _$s9Tightbeam0A15EncoderProtocolP17ACIEXKitComponentRi_zrlE6encode33_376465043A5BFE8D837D3EF8E91BF464LLyyAD19_ANESessionHintArgsVSo10tb_error_taYKFAA0aB0V_Tg5
++ ___swift_memcpy25_8
++ ___swift_memcpy9_8
++ _symbolic _____ 17ACIEXKitComponent15_ANESessionInfoV
++ _symbolic _____ 17ACIEXKitComponent17_ANEPowerHintArgsV
++ _symbolic _____ 17ACIEXKitComponent17_ANESessionStatusO
++ _symbolic _____ 17ACIEXKitComponent19_ANESessionHintArgsV
++ _symbolic _____ 17ACIEXKitComponent19_ANESessionHintTypeO
++ _type_layout_string 17ACIEXKitComponent15_ANESessionInfoV
++ _type_layout_string 17ACIEXKitComponent17_ANEPowerHintArgsV
++ _type_layout_string 17ACIEXKitComponent19_ANESessionHintArgsV
+```

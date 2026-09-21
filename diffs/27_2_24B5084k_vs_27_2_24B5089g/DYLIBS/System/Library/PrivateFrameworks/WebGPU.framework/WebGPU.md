@@ -1,0 +1,51 @@
+## WebGPU
+
+> `/System/Library/PrivateFrameworks/WebGPU.framework/WebGPU`
+
+```diff
+
+-625.2.4.1.0
+-  __TEXT.__text: 0x244674
++625.2.5.10.1
++  __TEXT.__text: 0x244778
+   __TEXT.__objc_methlist: 0x200
+   __TEXT.__const: 0x1f94
+-  __TEXT.__gcc_except_tab: 0xa910
++  __TEXT.__gcc_except_tab: 0xa918
+   __TEXT.__swift5_typeref: 0x7d8
+   __TEXT.__cstring: 0x3e1fc
+   __TEXT.__constg_swiftt: 0xb7c
+
+   __TEXT.__swift5_types: 0x4c
+   __TEXT.__swift5_protos: 0x50
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x43d8
++  __TEXT.__unwind_info: 0x43e0
+   __TEXT.__eh_frame: 0xfa0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 3639
++  Functions: 3640
+   Symbols:   4442
+   CStrings:  2752
+ 
+Symbols:
++ __ZN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer32clearIndexBufferForCommandBufferERNS2_13CommandBufferEE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEE4callES8_
++ __ZN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer32clearIndexBufferForCommandBufferERNS2_13CommandBufferEE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer32clearIndexBufferForCommandBufferERNS2_13CommandBufferEE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEED1Ev
++ __ZN3WTF6VectorINSt3__15tupleIJPN4WGSL3AST8VariableEjjEEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS7_mSD_
++ __ZN6WebGPU6Buffer32clearIndexBufferForCommandBufferERNS_13CommandBufferE
++ __ZTVN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer32clearIndexBufferForCommandBufferERNS2_13CommandBufferEE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEEE
++ __ZZN6WebGPU6Buffer32clearIndexBufferForCommandBufferERNS_13CommandBufferEEN3$_0D1Ev
+- GCC_except_table46
+- __ZN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer27takeSlowIndexValidationPathERNS2_13CommandBufferEjj12MTLIndexTypejjE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEE4callES9_
+- __ZN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer27takeSlowIndexValidationPathERNS2_13CommandBufferEjj12MTLIndexTypejjE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEED0Ev
+- __ZN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer27takeSlowIndexValidationPathERNS2_13CommandBufferEjj12MTLIndexTypejjE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEED1Ev
+- __ZN3WTF6VectorINSt3__15tupleIJPN4WGSL3AST8VariableEjEEELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14expandCapacityILNS_13FailureActionE0EEEPS7_mSD_
+- __ZTVN3WTF6Detail15CallableWrapperIZN6WebGPU6Buffer27takeSlowIndexValidationPathERNS2_13CommandBufferEjj12MTLIndexTypejjE3$_0vJU8__strongPU27objcproto16MTLCommandBuffer11objc_objectEEE
+- __ZZN6WebGPU6Buffer27takeSlowIndexValidationPathERNS_13CommandBufferEjj12MTLIndexTypejjEN3$_0D1Ev
+```

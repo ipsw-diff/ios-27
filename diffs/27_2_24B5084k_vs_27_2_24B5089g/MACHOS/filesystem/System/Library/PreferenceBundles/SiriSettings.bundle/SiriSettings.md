@@ -1,0 +1,177 @@
+## SiriSettings
+
+> `/System/Library/PreferenceBundles/SiriSettings.bundle/SiriSettings`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_assocty`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+
+```diff
+
+-3605.24.1.1.2
+-  __TEXT.__text: 0xff98
+-  __TEXT.__auth_stubs: 0xd50
++3605.26.3.0.0
++  __TEXT.__text: 0x10758
++  __TEXT.__auth_stubs: 0xdd0
+   __TEXT.__objc_stubs: 0x780
+   __TEXT.__objc_methlist: 0x194
+-  __TEXT.__const: 0x7f8
++  __TEXT.__const: 0x852
+   __TEXT.__gcc_except_tab: 0x38
+   __TEXT.__objc_classname: 0x14c
+   __TEXT.__objc_methtype: 0x199
+   __TEXT.__cstring: 0x59f
+   __TEXT.__dlopen_cstrs: 0xae
+   __TEXT.__objc_methname: 0x795
+-  __TEXT.__swift5_typeref: 0x29b
+-  __TEXT.__swift5_capture: 0xa4
++  __TEXT.__swift5_typeref: 0x37b
++  __TEXT.__swift5_capture: 0x94
+   __TEXT.__constg_swiftt: 0x3d4
+-  __TEXT.__swift5_reflstr: 0xe6
+-  __TEXT.__swift5_fieldmd: 0x124
++  __TEXT.__swift5_reflstr: 0x107
++  __TEXT.__swift5_fieldmd: 0x130
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x38
+   __TEXT.__swift5_types: 0x34
+
+   __TEXT.__swift_as_cont: 0x2c
+   __TEXT.__oslogstring: 0x1b2
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__unwind_info: 0x490
+-  __TEXT.__eh_frame: 0x5f8
+-  __DATA_CONST.__const: 0x7c0
++  __TEXT.__unwind_info: 0x488
++  __TEXT.__eh_frame: 0x5d0
++  __DATA_CONST.__const: 0x7f0
+   __DATA_CONST.__cfstring: 0x1e0
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__auth_got: 0x6b8
+-  __DATA_CONST.__got: 0x160
+-  __DATA_CONST.__auth_ptr: 0x2b0
++  __DATA_CONST.__auth_got: 0x6f8
++  __DATA_CONST.__got: 0x198
++  __DATA_CONST.__auth_ptr: 0x2e0
+   __DATA.__objc_const: 0x6a0
+   __DATA.__objc_selrefs: 0x288
+   __DATA.__objc_ivar: 0x4
+   __DATA.__objc_data: 0xf0
+-  __DATA.__data: 0x6a0
++  __DATA.__data: 0x6f8
+   __DATA.__bss: 0x730
+   __DATA.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift
+   - /System/Library/PrivateFrameworks/AppConduit.framework/AppConduit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 370
+-  Symbols:   1262
++  Functions: 376
++  Symbols:   1314
+   CStrings:  181
+ 
+Symbols:
++ _$s12SiriSettings09AppAccessB8ProviderCAC0A5Setup0cdB9ProvidingAAWlTm
++ _$s12SiriSettings09AssistantB10ExperienceV4bodyQrvg7SwiftUI19_ConditionalContentVy0A5Setup0aB4ViewPAHE04siriB9ModifiersQryFQOyAH014RestrictAccessK0V_Qo_AE05EmptyK0VGycfU1_
++ _$s12SiriSettings09AssistantB10ExperienceV4bodyQrvg7SwiftUI19_ConditionalContentVy0A5Setup0aB4ViewPAHE04siriB9ModifiersQryFQOyAH014RestrictAccessK0V_Qo_AE05EmptyK0VGycfU1_TA
++ _$s12SiriSettings09AssistantB10ExperienceVWOc
++ _$s12SiriSettings09AssistantB10ExperienceVWV
++ _$s12SiriSettings09AssistantB10ExperienceVwet
++ _$s12SiriSettings09AssistantB10ExperienceVwst
++ _$s7SwiftUI19_ConditionalContentV7StorageOMn
++ _$s7SwiftUI19_ConditionalContentV7StorageOy9SiriSetup0F12SettingsViewPAFE04siriH9ModifiersQryFQOyAF014RestrictAccessI0V_Qo_AA05EmptyI0V_GMR
++ _$s7SwiftUI19_ConditionalContentV7StorageOy9SiriSetup0F12SettingsViewPAFE04siriH9ModifiersQryFQOyAF014RestrictAccessI0V_Qo_AA05EmptyI0V_GMd
++ _$s7SwiftUI19_ConditionalContentVMn
++ _$s7SwiftUI19_ConditionalContentVy9SiriSetup0E12SettingsViewPADE04siriG9ModifiersQryFQOyAD014RestrictAccessH0V_Qo_AA05EmptyH0VGACyxq_GAA0H0A2aORzAaOR_rlWL
++ _$s7SwiftUI19_ConditionalContentVy9SiriSetup0E12SettingsViewPADE04siriG9ModifiersQryFQOyAD014RestrictAccessH0V_Qo_AA05EmptyH0VGACyxq_GAA0H0A2aORzAaOR_rlWl
++ _$s7SwiftUI19_ConditionalContentVy9SiriSetup0E12SettingsViewPADE04siriG9ModifiersQryFQOyAD014RestrictAccessH0V_Qo_AA05EmptyH0VGMR
++ _$s7SwiftUI19_ConditionalContentVy9SiriSetup0E12SettingsViewPADE04siriG9ModifiersQryFQOyAD014RestrictAccessH0V_Qo_AA05EmptyH0VGMd
++ _$s7SwiftUI19_ConditionalContentVyxq_GAA4ViewA2aERzAaER_rlMc
++ _$s7SwiftUI9EmptyViewVAA0D0AAWP
++ _$s7SwiftUI9EmptyViewVMn
++ _$s8Settings05TupleA17ExperienceContentVMn
++ _$s8Settings05TupleA17ExperienceContentVyAA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo__AOy7SwiftUI012_ConditionalD0VyAP0maQ0PAPE04siriA9ModifiersQryFQOyAP014RestrictAccessQ0V_Qo_AU05EmptyQ0VGGQPGACyxxQp_QPGAadAWL
++ _$s8Settings05TupleA17ExperienceContentVyAA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo__AOy7SwiftUI012_ConditionalD0VyAP0maQ0PAPE04siriA9ModifiersQryFQOyAP014RestrictAccessQ0V_Qo_AU05EmptyQ0VGGQPGMR
++ _$s8Settings05TupleA17ExperienceContentVyAA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo__AOy7SwiftUI012_ConditionalD0VyAP0maQ0PAPE04siriA9ModifiersQryFQOyAP014RestrictAccessQ0V_Qo_AU05EmptyQ0VGGQPGMd
++ _$s8Settings05TupleA17ExperienceContentVyACyxxQp_QPGxxQp_t_tcfC
++ _$s8Settings05TupleA17ExperienceContentVyxxQp_QPGAA0acD0AAMc
++ _$s8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo_MR
++ _$s8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo_Md
++ _$s8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo__AMy7SwiftUI012_ConditionalC0VyAN0laP0PANE04siriA9ModifiersQryFQOyAN014RestrictAccessP0V_Qo_AS05EmptyP0VGGtMR
++ _$s8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo__AMy7SwiftUI012_ConditionalC0VyAN0laP0PANE04siriA9ModifiersQryFQOyAN014RestrictAccessP0V_Qo_AS05EmptyP0VGGtMd
++ _$s8Settings0A4PaneV2id11makeContentACyxGSS_xyctcfC
++ _$s8Settings0A4PaneVy7SwiftUI19_ConditionalContentVy9SiriSetup0gA4ViewPAGE04siriA9ModifiersQryFQOyAG014RestrictAccessI0V_Qo_AD05EmptyI0VGGACyxGAA0a10ExperienceF0AAWL
++ _$s8Settings0A4PaneVy7SwiftUI19_ConditionalContentVy9SiriSetup0gA4ViewPAGE04siriA9ModifiersQryFQOyAG014RestrictAccessI0V_Qo_AD05EmptyI0VGGMR
++ _$s8Settings0A4PaneVy7SwiftUI19_ConditionalContentVy9SiriSetup0gA4ViewPAGE04siriA9ModifiersQryFQOyAG014RestrictAccessI0V_Qo_AD05EmptyI0VGGMd
++ _$s8Settings0A4PaneVy9SiriSetup09AssistantA8MainViewVGACyxGAA0A17ExperienceContentAAWlTm
++ _$s9SiriSetup0A12SettingsViewPAAE04siriC9ModifiersQryF
++ _$s9SiriSetup0A12SettingsViewPAAE04siriC9ModifiersQryFQOMQ
++ _$s9SiriSetup0A19SettingsDestinationO14restrictAccessyA2CmFWC
++ _$s9SiriSetup0A19SettingsDestinationO8rawValueSSvg
++ _$s9SiriSetup0A19SettingsDestinationOMa
++ _$s9SiriSetup18RestrictAccessViewV8providerAcA0cD9Providing_p_tcfC
++ _$s9SiriSetup18RestrictAccessViewVAA0a8SettingsE0AAMc
++ _$s9SiriSetup18RestrictAccessViewVAcA0a8SettingsE0AAWL
++ _$s9SiriSetup18RestrictAccessViewVMa
++ _$s9SiriSetup18RestrictAccessViewVMn
++ _$s9SiriSetup23RestrictAccessProviding_pSgMR
++ _$s9SiriSetup23RestrictAccessProviding_pSgMd
++ _$s9SiriSetup23RestrictAccessProviding_pSgWOc
++ _$s9SiriSetup23RestrictAccessProviding_pSgWOh
++ _$s9SiriSetup23RestrictAccessProviding_pWOc
++ ___swift_closure_destructorTm
++ ___swift_memcpy48_8
++ _get_enum_tag_for_layout_string 9SiriSetup23RestrictAccessProviding_pSg
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_storeEnumTagMultiPayload
++ _symbolic ______pSg 9SiriSetup23RestrictAccessProvidingP
++ _symbolic _____y_____y_____G_Qo__AAy_____y_____y______Qo______GGt 8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQO AA0A4PaneV 9SiriSetup09AssistantA8MainViewV 7SwiftUI012_ConditionalC0V AN0laP0PANE04siriA9ModifiersQryFQO AN014RestrictAccessP0V AQ05EmptyP0V
++ _symbolic _____y_____y______Qo______G 7SwiftUI19_ConditionalContentV 9SiriSetup0E12SettingsViewPADE04siriG9ModifiersQryFQO AD014RestrictAccessH0V AA05EmptyH0V
++ _symbolic _____y_____y______Qo_______G 7SwiftUI19_ConditionalContentV7StorageO 9SiriSetup0F12SettingsViewPAFE04siriH9ModifiersQryFQO AF014RestrictAccessI0V AA05EmptyI0V
++ _symbolic _____y_____y_____y_____G_Qo__ABy_____y_____y______Qo______GGQPG 8Settings05TupleA17ExperienceContentV AA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQO AA0A4PaneV 9SiriSetup09AssistantA8MainViewV 7SwiftUI012_ConditionalD0V AP0maQ0PAPE04siriA9ModifiersQryFQO AP014RestrictAccessQ0V AS05EmptyQ0V
++ _symbolic _____y_____y_____y______Qo______GG 8Settings0A4PaneV 7SwiftUI19_ConditionalContentV 9SiriSetup0gA4ViewPAGE04siriA9ModifiersQryFQO AG014RestrictAccessI0V AD05EmptyI0V
++ get_witness_table 8Settings05TupleA17ExperienceContentVyAA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo__AOy7SwiftUI012_ConditionalD0VyAP0maQ0PAPE04siriA9ModifiersQryFQOyAP014RestrictAccessQ0V_Qo_AU05EmptyQ0VGGQPGAaDHPyHC
+- $s12SiriSettings09AssistantB10ExperienceV4bodyQrvg0A5Setup0cB8MainViewVycfU_TA
+- $s12SiriSettings09AssistantB10ExperienceV4bodyQrvg0B00bD13OpenURLActionV6ResultVAG5InputVYacfU0_TA
+- $s12SiriSettings09AssistantB10ExperienceV4bodyQrvg0B00bD13OpenURLActionV6ResultVAG5InputVYacfU0_TA.15TQ0_
+- $s12SiriSettings09AssistantB10ExperienceV4bodyQrvg0B00bD13OpenURLActionV6ResultVAG5InputVYacfU0_TA.15Tu
+- _$s12SiriSettings09AssistantB10ExperienceV04mainB9ViewModel0A5Setup04MaincbfG0Cvpfi
+- _$s12SiriSettings09AssistantB10ExperienceV04mainB9ViewModel0A5Setup04MaincbfG0CvpfiAGyXEfU_
+- _$s12SiriSettings09AssistantB10ExperienceV04mainB9ViewModelAC0A5Setup04MaincbfG0C_tcfC
+- _$s12SiriSettings09AssistantB10ExperienceV04mainB9ViewModelAC0A5Setup04MaincbfG0C_tcfcfA_
+- _$s8Settings0A4PaneVy9SiriSetup09AssistantA8MainViewVGACyxGAA0A17ExperienceContentAAWl
+- _$s9SiriSetup25AssistantSettingsMainViewVAC7SwiftUI0F0AAWlTm
+- _objc_retain_x26
+- get_witness_table qd__8Settings0A17ExperienceContentHD2_AaBPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQOyAA0A4PaneVy9SiriSetup09AssistantA8MainViewVG_Qo_HO
+```

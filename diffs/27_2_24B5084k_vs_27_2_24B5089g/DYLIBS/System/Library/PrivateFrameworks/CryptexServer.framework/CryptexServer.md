@@ -1,0 +1,15 @@
+## CryptexServer
+
+> `/System/Library/PrivateFrameworks/CryptexServer.framework/CryptexServer`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+CStrings:
++ "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Sat Sep 12 05:12:22 PDT 2026; root:libcryptex-761.40.23~258/CryptexServer/RELEASE_ARM64E"
++ "Darwin Cryptex Server Framework Version 1.0.0: Sat Sep 12 05:12:22 PDT 2026; root:libcryptex-761.40.23~258/CryptexServer/RELEASE_ARM64E"
+- "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Tue Sep  1 01:24:35 PDT 2026; root:libcryptex-761.40.23~49/CryptexServer/RELEASE_ARM64E"
+- "Darwin Cryptex Server Framework Version 1.0.0: Tue Sep  1 01:24:35 PDT 2026; root:libcryptex-761.40.23~49/CryptexServer/RELEASE_ARM64E"
+```
